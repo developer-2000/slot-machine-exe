@@ -1,0 +1,29 @@
+$menuText:#bfcbd9;
+$menuActiveText:#FFF;
+$subMenuActiveText:#FFF; //https://github.com/ElemeFE/element/issues/12951
+
+$menuBg: linear-gradient(360deg, #C8EF62 0%, #268597 50.52%, #116272 100%);
+$menuHover: rgba(0, 0, 0, 0.2);
+$brand-violet: #383D74;
+$brand_blue: #268597;
+$brand_darken_blue: #116272;
+
+$subMenuBg:#1f2d3d;
+$subMenuHover:rgb(204, 204, 204);;
+
+$sideBarWidth: 260px;
+$font-color: #07272D;
+:export {
+  menuText: $menuText;
+  menuActiveText: $menuActiveText;
+  subMenuActiveText: $subMenuActiveText;
+  menuBg: $menuBg;
+  menuHover: $menuHover;
+  subMenuBg: $subMenuBg;
+  subMenuHover: $subMenuHover;
+  sideBarWidth: $sideBarWidth;
+  brand-violet: $brand-violet;
+  brand-blue: $brand-blue;
+  font-color: $font-color;
+  brand_darken_blue: $brand_darken_blue;
+}

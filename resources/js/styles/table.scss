@@ -1,0 +1,81 @@
+/*Переопределение дефолтных стилей таблицы*/
+ .status-cell {
+    &.el-tag {
+      height: 32px;
+      border: none;
+      color: transparent;
+      text-indent: -9999;
+      background: transparent url("../assets/tables/no.svg") left center no-repeat;
+      background-size: 16px;
+
+      &.el-tag--success {
+        background: transparent url("../assets/tables/ok.svg") left center no-repeat;
+        background-size: 16px;
+        color: transparent;
+        text-indent: -9999;
+      }
+    }
+  }
+.el-table {
+
+  td,
+  th {
+    // min-width: 124px;
+    padding: 0;
+    border: none !important;
+  }
+
+  td {
+    &:first-of-type {
+      border-top-left-radius: 9999px;
+      border-bottom-left-radius: 9999px;
+    }
+
+    &:last-of-type {
+      border-top-right-radius: 9999px;
+      border-bottom-right-radius: 9999px;
+    }
+  }
+
+  th .cell {
+    white-space: nowrap
+  }
+
+  .cell {
+    // min-width: 124px;
+    word-break: break-word
+  }
+
+  .grey-row td {
+    background: #F8F8F8
+  }
+
+  .ascending .sort-caret.ascending {
+    border-bottom-color: $brand_blue
+  }
+
+  .descending .sort-caret.descending {
+    border-top-color: $brand_blue
+  }
+
+ 
+
+  .license-cell {
+    &.el-tag {
+      padding: 0;
+      background: transparent;
+      border: none
+    }
+  }
+
+  .edit-btn {
+    width: 35px;
+    height: 35px;
+    padding: 0;
+    background: transparent url("../assets/tables/edit.svg") left center no-repeat !important;
+    background-size: 16px !important;
+    border: none;
+    color: transparent !important;
+    text-indent: -9999;
+  }
+}

@@ -1,0 +1,27 @@
+# IntelliJ IDEA files
+/node_modules
+/resources/map/js/node_modules
+/public/js
+/public/mix-manifest.json
+/public/map/js
+/resources/map/js/yarn-error.log
+/public/css
+/public/images
+/public/fonts
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.idea
+.env.backup
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+.editorconfig
+resources/map/js/package-lock.json
+package-lock.json
+help.txt
+.rar
+.zip
